@@ -29,5 +29,5 @@ Built a classification model to predict those who are likely to accept the offer
 
 Apply stacking on all the models for regression and classification.
 
- *Hint: Take Linear regression for Regression as your meta learner and Logistic Regression  for classification as your meta      learner.*
+Prerequisite : Rstudio and H20 has to be installed .  
  
