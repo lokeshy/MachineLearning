@@ -2,9 +2,13 @@ rm(list=ls(all=TRUE))
 setwd('f:/ML/assignment-1-lokeshy/src/')
 source('common.r')
 
+
 detectOutliers(bankdata , bankdata$CCAvg)
 detectOutliers(bankdata , bankdata$Income)
 detectOutliers(bankdata , bankdata$Age)
+
+
+
 ### divide test and train  60 , 40######
 set.seed(5656)
 dt = sort(sample(nrow(bankdata), nrow(bankdata)*.6))
