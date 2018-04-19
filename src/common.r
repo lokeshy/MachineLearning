@@ -34,7 +34,7 @@ checkClassImbalance = function(target){
   return(class_Table) 
 }
 
-setwd('f:/ML/assignment-1-lokeshy')
+setwd('f:/ML/MachineLearning/src/')
 total_attr = c('ID','Age','Experience','Income','ZIPCode','Family','CCAvg','Education',
                'Mortgage','PersonalLoan','SecuritiesAccount','CDAccount','Online','CreditCard')
 

@@ -23,6 +23,7 @@ library(randomForest)
 rfModel = randomForest(PersonalLoan~.,
                          data=train, 
                          keep.forest=TRUE,ntree=50) 
+save(rfModel, file='randomForest.rda')
 
 print(rfModel)
 

@@ -1,5 +1,5 @@
 rm(list=ls(all=TRUE))
-setwd('f:/ML/assignment-1-lokeshy/src/')
+setwd('f:/ML/MachineLearning/src/')
 source('common.r')
 ## loan is target variable check class imbalance if any##
 

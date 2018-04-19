@@ -13,4 +13,6 @@ test = bankdata[-train_RowIDs,]
 
 pred=knn(train = train, test = test, train$PersonalLoan, k = 1)
 
+
+
 buildConfusionMatrix(test$PersonalLoan , pred)
